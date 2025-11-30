@@ -103,6 +103,8 @@ Content-Type: application/json
 2. Prompt ensures strict JSON return
 3. Extracts page_type + bill_items list
 
+You can change llm here according to your choice.
+
 ### D. Item Validation & Fixing
 
 1. Invalid rows removed
@@ -123,8 +125,8 @@ Content-Type: application/json
 ### Clone repository
 
 ```
-git clone <repo-link>
-cd project-directory
+git clone https://github.com/VikrantSingh010/VikrantSingh_IITJodhpur.git
+cd VikrantSingh_IITJodhpur
 ```
 
 ### Create environment
@@ -145,7 +147,6 @@ pip install -r requirements.txt
 
 ```
 export GROQ_API_KEY=your_key_here
-export GROQ_MODEL=llama-3.1-8b-instant
 ```
 
 ### Start server
